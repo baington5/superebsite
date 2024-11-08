@@ -1,0 +1,103 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f8ff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 1.5em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Navigation Bar Styling */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #004d99;
+    padding: 0.5em 0;
+}
+nav a {
+    color: #fff;
+    padding: 0.8em 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+nav a:hover {
+    background-color: #007acc;
+    color: #f2f8ff;
+}
+
+/* Section Styling */
+section {
+    padding: 2em;
+    margin: 1.5em auto;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+h2 {
+    color: #004d99; /* Heading color */
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+/* Specific Section Styling */
+#MyBackground {
+    border-left: 5px solid #ff390e;
+}
+#QuickBio {
+    border-left: 5px solid #ff6600;
+}
+#Education {
+    border-left: 5px solid #ffcc00;
+}
+#Skills {
+    border-left: 5px solid #33cc33;
+}
+#Projects {
+    border-left: 5px solid #31dcfe;
+}
+#Experience {
+    border-left: 5px solid #cc33ff;
+}
+#Contact {
+    border-left: 5px solid #ff0066;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    background: #e6f3ff;
+    margin: 0.5em 0;
+    padding: 0.8em;
+    border-radius: 5px;
+    color: #333;
+    transition: background-color 0.3s;
+}
+ul li:hover {
+    background-color: #cce6ff;
+}
+
+/* Links Styling */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+a:hover {
+    color: #004d99;
+    text-decoration: underline;
+}
